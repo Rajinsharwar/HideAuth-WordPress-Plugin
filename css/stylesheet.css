@@ -1,0 +1,16 @@
+.blog .post-inner-wrap .avatar-wrap, .post-inner-wrap .meta-wrap {
+    display: none !important;
+}
+
+.post-author {
+    display: none !important;
+}
+
+.post-date a:hover {
+    display: none !important;
+}
+
+
+.post-date a {
+    display: none !important;
+}
