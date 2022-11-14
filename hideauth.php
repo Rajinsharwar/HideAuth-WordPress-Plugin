@@ -7,6 +7,10 @@
  * Version: 1.0.0
  */
 
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 function hideauth_enqueue_styles() {
     $file_url = plugins_url('/css/stylesheet.css', __FILE__);
     wp_enqueue_style( 'hideauth_sytlesheet', $file_url);
